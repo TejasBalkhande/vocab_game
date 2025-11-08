@@ -1,0 +1,27 @@
+name: game_learn
+description: "A new Flame game project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flame: ^1.33.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/image.png
+    - assets/image.png
+    - assets/images/bush.png
+    - assets/bush.png
+
+  uses-material-design: true
